@@ -150,6 +150,10 @@ Append **`?debug=true`** to the URL to show a small JSON panel with the last com
 - The OpenAI key lives **only** on the server in `.env`. The client never sees it; it only sees `openAiConfigured`.
 - Do not expose this server directly to untrusted networks without hardening (rate limits, auth, HTTPS termination, etc.). This repository is an **art/demo** stack, not a hardened multi-tenant product.
 
+## Further documentation
+
+The repository includes a **Codex build package**: numbered specs from product concept through Raspberry Pi deployment. Start with [00_README.md](./00_README.md), then [01_PRODUCT_CONCEPT.md](./01_PRODUCT_CONCEPT.md) and follow the build order listed there.
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
